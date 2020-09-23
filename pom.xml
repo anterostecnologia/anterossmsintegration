@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.anteros</groupId>
 	<artifactId>Anteros-SMS-Integration</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 
 	<name>Anteros SMS Integration</name>
 	<description>
@@ -65,7 +65,7 @@
 		<dependency>
 			<groupId>br.com.anteros</groupId>
 			<artifactId>Anteros-Core</artifactId>
-			<version>[1.0.0,)</version>
+			<version>[1.2.6,)</version>
 		</dependency>
 	</dependencies>
 	
@@ -78,17 +78,7 @@
 				<enabled>true</enabled>
 				<updatePolicy>always</updatePolicy>
 			</snapshots>
-		</repository>
-		<repository>
-			<id>local-REPO</id>
-			<url>http://vps4657.publiccloud.com.br:8082/artifactory/libs-release/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
+		</repository>		
 	</repositories>
 
 	<profiles>
@@ -321,12 +311,7 @@
 				</pluginManagement>
 			</build>
 
-			<distributionManagement>
-				<repository>
-					<id>local-REPO</id>
-					<url>http://vps4657.publiccloud.com.br:8082/artifactory/libs-release-local</url>
-				</repository>
-			</distributionManagement>
+			
 		</profile>
 	</profiles>
 </project>
