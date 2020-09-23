@@ -7,9 +7,9 @@ import br.com.anteros.sms.integration.AnterosSMSProvider;
 import br.com.anteros.sms.integration.SMSResult;
 import br.com.anteros.sms.integration.SMSStatus;
 import br.com.anteros.sms.integration.exception.AnterosSMSIntegrationException;
-import models.DefaultServiceResult;
-import services.CreditService;
-import services.TextMessageService;
+import br.com.anteros.sms.integration.sdk.comtele.models.DefaultServiceResult;
+import br.com.anteros.sms.integration.sdk.comtele.services.CreditService;
+import br.com.anteros.sms.integration.sdk.comtele.services.TextMessageService;
 
 /**
  * ComTele provider SMS

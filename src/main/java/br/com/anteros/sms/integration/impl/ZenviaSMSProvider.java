@@ -9,15 +9,15 @@ import br.com.anteros.sms.integration.AnterosSMSProvider;
 import br.com.anteros.sms.integration.SMSResult;
 import br.com.anteros.sms.integration.SMSStatus;
 import br.com.anteros.sms.integration.exception.AnterosSMSIntegrationException;
-import br.com.zenvia.client.RestClient;
-import br.com.zenvia.client.exception.RestClientException;
-import br.com.zenvia.client.request.MessageSmsElement;
-import br.com.zenvia.client.request.MultipleMessageSms;
-import br.com.zenvia.client.request.SingleMessageSms;
-import br.com.zenvia.client.response.BaseResponse;
-import br.com.zenvia.client.response.GetSmsStatusResponse;
-import br.com.zenvia.client.response.SendMultipleSmsResponse;
-import br.com.zenvia.client.response.SendSmsResponse;
+import br.com.anteros.sms.integration.sdk.zenvia.RestClient;
+import br.com.anteros.sms.integration.sdk.zenvia.exception.RestClientException;
+import br.com.anteros.sms.integration.sdk.zenvia.request.MessageSmsElement;
+import br.com.anteros.sms.integration.sdk.zenvia.request.MultipleMessageSms;
+import br.com.anteros.sms.integration.sdk.zenvia.request.SingleMessageSms;
+import br.com.anteros.sms.integration.sdk.zenvia.response.BaseResponse;
+import br.com.anteros.sms.integration.sdk.zenvia.response.GetSmsStatusResponse;
+import br.com.anteros.sms.integration.sdk.zenvia.response.SendMultipleSmsResponse;
+import br.com.anteros.sms.integration.sdk.zenvia.response.SendSmsResponse;
 
 /**
  * Zenvia provider SMS
