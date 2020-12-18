@@ -1,6 +1,12 @@
 package br.com.anteros.sms.integration;
 
 public enum SMSProviders {
-	COMTELE,
+	Comtele,
+	FacilitaMovel,
+	GtiSMS,
+	KingSMS,
+	LocaSMS,
+	SMSBarato,
+	Zenvia
 	
 }

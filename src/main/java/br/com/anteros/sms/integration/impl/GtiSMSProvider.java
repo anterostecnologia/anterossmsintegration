@@ -24,11 +24,11 @@ public class GtiSMSProvider implements AnterosSMSProvider {
 	private String token;
 	private String url;
 
-	GtiSMSProvider(String email, String token) {
+	public GtiSMSProvider(String email, String token) {
 		this(email, token, "https://api.gtisms.com/rest/api/SMS");
 	}
 
-	GtiSMSProvider(String email, String token, String url) {
+	public GtiSMSProvider(String email, String token, String url) {
 		this.userName = email;
 		this.token = token;
 		this.url = url;
